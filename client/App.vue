@@ -32,7 +32,8 @@
 </template>
 
 <script>
-    import '/imports/collections/Time';
+	import '/imports/collections/Time';
+	import './router'
 
     export default {
         data() {

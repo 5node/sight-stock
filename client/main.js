@@ -5,7 +5,7 @@ Vue.use(VueMeteorTracker);
 // import { Template } from 'meteor/templating';
 // import { ReactiveVar } from 'meteor/reactive-var';
 
-import LandingPage from './LandingPage.vue';
+import LandingPage from './components/LandingPage.vue';
 import './main.html';
 
 

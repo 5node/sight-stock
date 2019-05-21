@@ -7,7 +7,13 @@
 	</div>
 </template>
 <script>
+import router from '../router/index';
 export default {
-	props: ['content']
+	props: ['content'],
+	methods:{
+		navigate(){
+			router.go(-1)
+		}
+	}
 }
 </script>

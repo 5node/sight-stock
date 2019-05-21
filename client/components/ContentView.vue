@@ -4,6 +4,7 @@
 		<p>제작자: {{content.creater}}</p>
 		<p>미리보기</p>
 		<img :src=content.imageAddress>
+		<router-link>보러가기</router-link>
 	</div>
 </template>
 <script>
